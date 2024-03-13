@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.task {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.p-4 {
+    padding: 24px;
+}
+
+.hover_effect:hover {
+    box-shadow: 0px 5px 17px 0px #0000001A;
+}
+
+.check {
+    width: 50px;
+    height: 25px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.card {
+    width: 540px;
+    min-height: 501px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.mt-2 {
+    margin-top: 8px;
+}
+
+.gap-3 {
+    gap: 16px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-wrap {
+    word-break: break-all;
+}
+
+.w_h_changes {
+    width: 498px;
+    height: 59px;
+    /* padding: 7px 8px 7px 19px; */
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+}
+
+.pb-5 {
+    padding-bottom: 48px;
+}
+
+.px-4 {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.py-4 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.do_writer {
+    width: 498px;
+    height: 59px;
+    /* padding: 7px 8px 7px 19px; */
+    border-radius: 5px;
+    border: 1px solid #0000001A;
+}
+
+.add_task {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 140px;
+    height: 45px;
+    padding: 13px 34px 13px 34px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    gap: 10px;
+    background: linear-gradient(97.42deg, #128DFF -4.95%, #1444EF 109.04%);
+}
+
+.add_task:active {
+    color: white;
+    background: linear-gradient(97.42deg, #128DFF 109.04%, #1444EF -4.95%);
+}
+
+.input {
+    width: 345px;
+    height: 39px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.p-2 {
+    padding: 8px
+}
+
+.text {
+    padding-top: 27px;
+    padding-bottom: 9px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
